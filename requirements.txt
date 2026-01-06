@@ -7,9 +7,10 @@ shapely
 pyproj
 fiona
 scikit-learn==1.6.1
-joblib
+joblib==1.5.3
 geopy
-xgboost==3.0.2
+xgboost==3.1.2
+
 
 
 
