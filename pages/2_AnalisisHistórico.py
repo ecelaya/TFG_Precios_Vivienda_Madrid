@@ -19,6 +19,8 @@ df_municipios = pd.read_csv("data/municipios.csv")
 df_medias = pd.read_csv("data/medias.csv")
 df_distritos = pd.read_csv("data/distritos.csv")
 
+st.divider()
+
 #Grafico de lineas España y Madrid
 
 st.subheader("Evolución del precio medio en España y Comunidad de Madrid")
@@ -79,6 +81,7 @@ fig_lineas = px.line(
     title="Evolución del valor tasado por municipio",)
 st.plotly_chart(fig_lineas, use_container_width=True)
 
+st.divider()
 
 #Mapa interactivo
 
@@ -154,6 +157,8 @@ fig.update_layout(
 
 st.plotly_chart(fig, use_container_width=True)
 
+st.divider()
+
 #Nivel Municipio de Madrid
 st.header("Análisis específico del Municipio de Madrid")
 st.text("Podemos ver cómo el Municipio de Madrid se mantiene durante los años como el municipio con el valor tasado más alto.\n\
@@ -185,6 +190,8 @@ fig.add_scatter(
     line=dict(color="white", dash="dash"))
 
 st.plotly_chart(fig, use_container_width=True)
+
+st.divider()
 
 #Precio medio
 
@@ -226,6 +233,8 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
+st.divider()
 
 # Incremento acumulado desde 2015
 
@@ -276,6 +285,7 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
 
 
 
