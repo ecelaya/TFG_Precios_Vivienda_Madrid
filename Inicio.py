@@ -9,8 +9,9 @@ import json
 st.set_page_config(page_title="Dashboard Vivienda", layout="wide")
 
 st.title("🏠 Dashboard Vivienda")
-st.write("Bienvenido al dashboard del TFG de Eloy Celaya López, para el grado de Estadística y Empresa en la Universidad Carlos III de Madrid. \
-         El objetivo de este dashboard es mostrar de forma interactiva todos los resultados obtenidos mediante el análisis además de poder probar los modelos creados.")
+st.write("""Bienvenido al dashboard del TFG de Eloy Celaya López, para el grado de Estadística y Empresa en la Universidad Carlos III de Madrid.
+         El objetivo de este dashboard es mostrar de forma interactiva todos los resultados obtenidos mediante el análisis además de poder probar los modelos creados.
+         Es recomendable el uso de un ordenador para la utilización de la app""")
 
 st.markdown("### 🧭 ¿Cómo usar este dashboard?")
 
