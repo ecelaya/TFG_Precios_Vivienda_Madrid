@@ -105,21 +105,19 @@ if st.button("🔮 Predecir precio"):
 
     # Crear DataFrame con EXACTAS columnas del modelo
     input_data = pd.DataFrame({
-    "Latitude": [latitude],
-    "Longitude": [longitude],
-    "Price": [0],
-    "Rooms": [rooms],
-    "Bathrooms": [bathrooms],
-    "Surface": [surface],
-    "Floor": [floor],
-    "Elevator": [int(elevator)],
-    "Air_Conditioner": [int(air)],
-    "Heater": [int(heater)],
-    "Parking": [int(parking)],
-    "Balcony": [int(balcony)],
-    "Terrace": [int(terrace)],
-    "Swimming_Pool": [int(pool)],
-    "log_surface": [np.log(surface)]})
+        "log_surface": [np.log(surface)],
+        "Rooms": [rooms],
+        "Bathrooms": [bathrooms],
+        "Floor": [floor],
+        "Latitude": [latitude],
+        "Longitude": [longitude],
+        "Elevator": [int(elevator)],
+        "Air_Conditioner": [int(air)],
+        "Heater": [int(heater)],
+        "Parking": [int(parking)],
+        "Balcony": [int(balcony)],
+        "Terrace": [int(terrace)],
+        "Swimming_Pool": [int(pool)]})
 
     # Predicción en log-precio
     log_price_pred = model.predict(input_data)[0]
@@ -138,6 +136,7 @@ if st.button("🔮 Predecir precio"):
         "del mercado inmobiliario de Madrid en el año 2023. "
 
         "El resultado tiene carácter orientativo y no constituye una valoración oficial.")
+
 
 
 
