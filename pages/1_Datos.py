@@ -2,6 +2,8 @@
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
+import os
+import json
 
 st.set_page_config(layout="wide")
 
@@ -84,5 +86,6 @@ st.write("Base de datos utilizada para el entrenamiento de los modelos de aprend
 st.dataframe(df_modelos)
 
 st.caption("Fuente: Kaggle")
+
 
 
