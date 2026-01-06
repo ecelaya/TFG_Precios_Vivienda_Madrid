@@ -67,7 +67,7 @@ st.divider()
 #df límites
 st.title("📊 Límites Municipales")
 st.write("Datos geoespaciales que contienen los límites municipales de toda España (Se muestran solo las primeras 50 entradas).")
-st.dataframe(gdf.head(50))
+st.dataframe(gdf.drop(columns="geometry").head(50))
 st.caption("Fuente: Instituto Geográfico Nacional (IGN)")
 
 st.divider()
@@ -78,3 +78,4 @@ st.write("Base de datos utilizada para el entrenamiento de los modelos de aprend
 st.dataframe(df_modelos)
 
 st.caption("Fuente: Kaggle")
+
