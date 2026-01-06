@@ -22,7 +22,7 @@ df_merge = pd.read_csv("data/precios_municipios.csv")
 df_distritos = pd.read_csv("data/distritos.csv")
 
 #Cargar df límites
-@st.cache_data
+@st.cache_resource
 def load_limites_geo():
     return gpd.read_file("data/limites_madrid.geojson")
 gdf = load_limites_geo()
@@ -76,4 +76,5 @@ st.divider()
 st.title("📊 Dataset de Portal Inmobiliario para Modelización")
 st.write("Base de datos utilizada para el entrenamiento de los modelos de aprendizaje automático. Incluye variables estructurales y de localización del inmueble.")
 st.dataframe(df_modelos)
+
 st.caption("Fuente: Kaggle")
