@@ -1,0 +1,397 @@
+Distrito,Año,€/m²
+Ciudad de Madrid,2007,3746.27
+Centro,2007,4798.92
+Arganzuela,2007,3770.95
+Retiro,2007,4371.0
+Salamanca,2007,5229.72
+Chamartín,2007,5143.43
+Tetuán,2007,4323.86
+Chamberí,2007,4833.33
+Fuencarral-El Pardo,2007,4120.34
+Moncloa-Aravaca,2007,4239.2
+Latina,2007,3159.32
+Carabanchel,2007,3189.9
+Usera,2007,3139.08
+Puente de Vallecas,2007,3282.45
+Moratalaz,2007,3206.78
+Ciudad Lineal,2007,3859.66
+Hortaleza,2007,4045.56
+Villaverde,2007,2785.93
+Villa de Vallecas,2007,2491.46
+Vicálvaro,2007,2970.41
+San Blas-Canillejas,2007,3358.23
+Barajas,2007,3587.62
+Ciudad de Madrid,2008,3543.44
+Centro,2008,4279.85
+Arganzuela,2008,4214.07
+Retiro,2008,4231.51
+Salamanca,2008,4961.8
+Chamartín,2008,4954.26
+Tetuán,2008,3938.18
+Chamberí,2008,5140.17
+Fuencarral-El Pardo,2008,4163.08
+Moncloa-Aravaca,2008,4224.57
+Latina,2008,3002.48
+Carabanchel,2008,3224.55
+Usera,2008,2680.28
+Puente de Vallecas,2008,3047.62
+Moratalaz,2008,2818.35
+Ciudad Lineal,2008,3710.68
+Hortaleza,2008,3796.85
+Villaverde,2008,2246.73
+Villa de Vallecas,2008,2552.02
+Vicálvaro,2008,2260.13
+San Blas-Canillejas,2008,3155.9
+Barajas,2008,3873.62
+Ciudad de Madrid,2009,3280.82
+Centro,2009,3777.96
+Arganzuela,2009,3918.01
+Retiro,2009,3908.82
+Salamanca,2009,4602.84
+Chamartín,2009,4528.39
+Tetuán,2009,3519.5
+Chamberí,2009,4296.01
+Fuencarral-El Pardo,2009,3640.95
+Moncloa-Aravaca,2009,3637.82
+Latina,2009,2543.36
+Carabanchel,2009,2694.45
+Usera,2009,2397.01
+Puente de Vallecas,2009,2537.32
+Moratalaz,2009,2482.35
+Ciudad Lineal,2009,3289.97
+Hortaleza,2009,3482.46
+Villaverde,2009,2245.85
+Villa de Vallecas,2009,2590.84
+Vicálvaro,2009,2454.9
+San Blas-Canillejas,2009,3013.5
+Barajas,2009,3117.36
+Ciudad de Madrid,2010,3244.74
+Centro,2010,3663.4
+Arganzuela,2010,3508.03
+Retiro,2010,3929.06
+Salamanca,2010,4602.69
+Chamartín,2010,4328.36
+Tetuán,2010,3431.88
+Chamberí,2010,4287.04
+Fuencarral-El Pardo,2010,3383.57
+Moncloa-Aravaca,2010,3653.42
+Latina,2010,2576.38
+Carabanchel,2010,2579.95
+Usera,2010,2381.64
+Puente de Vallecas,2010,2349.45
+Moratalaz,2010,2463.31
+Ciudad Lineal,2010,3134.88
+Hortaleza,2010,3788.91
+Villaverde,2010,2436.22
+Villa de Vallecas,2010,2614.65
+Vicálvaro,2010,2270.7
+San Blas-Canillejas,2010,2823.5
+Barajas,2010,3146.98
+Ciudad de Madrid,2011,3080.6
+Centro,2011,3646.95
+Arganzuela,2011,3313.51
+Retiro,2011,3662.02
+Salamanca,2011,4513.73
+Chamartín,2011,4241.35
+Tetuán,2011,3157.96
+Chamberí,2011,4084.65
+Fuencarral-El Pardo,2011,3278.91
+Moncloa-Aravaca,2011,3774.48
+Latina,2011,2265.59
+Carabanchel,2011,2296.92
+Usera,2011,2052.59
+Puente de Vallecas,2011,2235.54
+Moratalaz,2011,2406.83
+Ciudad Lineal,2011,2848.59
+Hortaleza,2011,3706.0
+Villaverde,2011,2311.92
+Villa de Vallecas,2011,2416.66
+Vicálvaro,2011,2356.59
+San Blas-Canillejas,2011,2436.1
+Barajas,2011,2947.83
+Ciudad de Madrid,2012,2613.45
+Centro,2012,3183.74
+Arganzuela,2012,2886.48
+Retiro,2012,3296.95
+Salamanca,2012,3857.07
+Chamartín,2012,3760.36
+Tetuán,2012,2671.19
+Chamberí,2012,3681.51
+Fuencarral-El Pardo,2012,3167.17
+Moncloa-Aravaca,2012,3476.55
+Latina,2012,1842.46
+Carabanchel,2012,1842.14
+Usera,2012,1817.17
+Puente de Vallecas,2012,1767.23
+Moratalaz,2012,1964.24
+Ciudad Lineal,2012,2578.0
+Hortaleza,2012,3233.42
+Villaverde,2012,1700.35
+Villa de Vallecas,2012,2106.58
+Vicálvaro,2012,1938.7
+San Blas-Canillejas,2012,2098.09
+Barajas,2012,2552.3
+Ciudad de Madrid,2013,2348.25
+Centro,2013,2853.42
+Arganzuela,2013,2344.66
+Retiro,2013,3000.11
+Salamanca,2013,3633.39
+Chamartín,2013,3335.3
+Tetuán,2013,2275.36
+Chamberí,2013,3128.9
+Fuencarral-El Pardo,2013,2519.05
+Moncloa-Aravaca,2013,2797.09
+Latina,2013,1744.21
+Carabanchel,2013,1517.84
+Usera,2013,1366.82
+Puente de Vallecas,2013,1378.7
+Moratalaz,2013,1595.93
+Ciudad Lineal,2013,2065.22
+Hortaleza,2013,3003.37
+Villaverde,2013,1358.3
+Villa de Vallecas,2013,1945.47
+Vicálvaro,2013,1709.59
+San Blas-Canillejas,2013,1782.08
+Barajas,2013,2383.6
+Ciudad de Madrid,2014,2341.45
+Centro,2014,2740.91
+Arganzuela,2014,2306.09
+Retiro,2014,2928.8
+Salamanca,2014,3564.52
+Chamartín,2014,3254.61
+Tetuán,2014,2218.8
+Chamberí,2014,3200.87
+Fuencarral-El Pardo,2014,2790.6
+Moncloa-Aravaca,2014,2725.38
+Latina,2014,1503.2
+Carabanchel,2014,1417.66
+Usera,2014,1397.16
+Puente de Vallecas,2014,1307.4
+Moratalaz,2014,1655.6
+Ciudad Lineal,2014,1986.14
+Hortaleza,2014,2743.46
+Villaverde,2014,1309.06
+Villa de Vallecas,2014,1678.84
+Vicálvaro,2014,1629.15
+San Blas-Canillejas,2014,1682.32
+Barajas,2014,2194.69
+Ciudad de Madrid,2015,2404.3
+Centro,2015,3002.18
+Arganzuela,2015,2239.4
+Retiro,2015,3151.86
+Salamanca,2015,3734.45
+Chamartín,2015,3410.94
+Tetuán,2015,2269.07
+Chamberí,2015,3435.82
+Fuencarral-El Pardo,2015,2667.45
+Moncloa-Aravaca,2015,2785.97
+Latina,2015,1520.01
+Carabanchel,2015,1485.14
+Usera,2015,1355.02
+Puente de Vallecas,2015,1252.73
+Moratalaz,2015,1705.51
+Ciudad Lineal,2015,2069.57
+Hortaleza,2015,2659.96
+Villaverde,2015,1321.72
+Villa de Vallecas,2015,1678.06
+Vicálvaro,2015,1563.48
+San Blas-Canillejas,2015,1640.18
+Barajas,2015,2453.01
+Ciudad de Madrid,2016,2586.31
+Centro,2016,3520.6
+Arganzuela,2016,2692.43
+Retiro,2016,3254.71
+Salamanca,2016,4169.05
+Chamartín,2016,3704.06
+Tetuán,2016,2593.47
+Chamberí,2016,3873.32
+Fuencarral-El Pardo,2016,2872.7
+Moncloa-Aravaca,2016,3058.18
+Latina,2016,1635.21
+Carabanchel,2016,1602.18
+Usera,2016,1379.84
+Puente de Vallecas,2016,1306.74
+Moratalaz,2016,1820.35
+Ciudad Lineal,2016,2239.68
+Hortaleza,2016,2248.35
+Villaverde,2016,1316.77
+Villa de Vallecas,2016,1740.41
+Vicálvaro,2016,1662.68
+San Blas-Canillejas,2016,1754.26
+Barajas,2016,2330.57
+Ciudad de Madrid,2017,2874.31
+Centro,2017,4118.55
+Arganzuela,2017,3060.83
+Retiro,2017,3784.14
+Salamanca,2017,4816.71
+Chamartín,2017,4032.34
+Tetuán,2017,2892.79
+Chamberí,2017,4416.36
+Fuencarral-El Pardo,2017,3133.12
+Moncloa-Aravaca,2017,3398.57
+Latina,2017,1785.71
+Carabanchel,2017,1755.36
+Usera,2017,1576.26
+Puente de Vallecas,2017,1412.75
+Moratalaz,2017,2064.2
+Ciudad Lineal,2017,2467.05
+Hortaleza,2017,2827.19
+Villaverde,2017,1304.16
+Villa de Vallecas,2017,1922.11
+Vicálvaro,2017,1708.21
+San Blas-Canillejas,2017,1893.48
+Barajas,2017,2603.78
+Ciudad de Madrid,2018,3231.86
+Centro,2018,4809.31
+Arganzuela,2018,3693.97
+Retiro,2018,4444.42
+Salamanca,2018,5400.24
+Chamartín,2018,4708.52
+Tetuán,2018,3325.98
+Chamberí,2018,5202.37
+Fuencarral-El Pardo,2018,3311.77
+Moncloa-Aravaca,2018,3754.98
+Latina,2018,2103.49
+Carabanchel,2018,1979.46
+Usera,2018,1722.97
+Puente de Vallecas,2018,1637.04
+Moratalaz,2018,2321.59
+Ciudad Lineal,2018,2853.33
+Hortaleza,2018,3307.99
+Villaverde,2018,1501.67
+Villa de Vallecas,2018,2141.0
+Vicálvaro,2018,1876.5
+San Blas-Canillejas,2018,2264.89
+Barajas,2018,3276.03
+Ciudad de Madrid,2019,3365.64
+Centro,2019,5279.93
+Arganzuela,2019,3927.78
+Retiro,2019,4864.84
+Salamanca,2019,5857.87
+Chamartín,2019,5111.43
+Tetuán,2019,3661.17
+Chamberí,2019,5538.86
+Fuencarral-El Pardo,2019,3532.33
+Moncloa-Aravaca,2019,3952.35
+Latina,2019,2309.59
+Carabanchel,2019,2178.48
+Usera,2019,1896.4
+Puente de Vallecas,2019,1841.52
+Moratalaz,2019,2551.94
+Ciudad Lineal,2019,3188.41
+Hortaleza,2019,3304.06
+Villaverde,2019,1750.08
+Villa de Vallecas,2019,2280.79
+Vicálvaro,2019,1919.73
+San Blas-Canillejas,2019,2270.33
+Barajas,2019,3049.82
+Ciudad de Madrid,2020,3481.61
+Centro,2020,5223.73
+Arganzuela,2020,4214.21
+Retiro,2020,4759.56
+Salamanca,2020,5511.9
+Chamartín,2020,5148.46
+Tetuán,2020,3648.0
+Chamberí,2020,5451.36
+Fuencarral-El Pardo,2020,3704.16
+Moncloa-Aravaca,2020,3961.3
+Latina,2020,2423.18
+Carabanchel,2020,2352.41
+Usera,2020,2323.82
+Puente de Vallecas,2020,1908.39
+Moratalaz,2020,2499.6
+Ciudad Lineal,2020,3154.24
+Hortaleza,2020,3412.21
+Villaverde,2020,1749.87
+Villa de Vallecas,2020,2543.35
+Vicálvaro,2020,2265.78
+San Blas-Canillejas,2020,2601.53
+Barajas,2020,3084.26
+Ciudad de Madrid,2021,3641.57
+Centro,2021,4935.9
+Arganzuela,2021,4210.73
+Retiro,2021,4818.16
+Salamanca,2021,5737.17
+Chamartín,2021,5122.9
+Tetuán,2021,3756.93
+Chamberí,2021,5701.59
+Fuencarral-El Pardo,2021,4037.31
+Moncloa-Aravaca,2021,4451.38
+Latina,2021,2340.85
+Carabanchel,2021,2335.49
+Usera,2021,2065.27
+Puente de Vallecas,2021,1908.5
+Moratalaz,2021,2593.33
+Ciudad Lineal,2021,3177.85
+Hortaleza,2021,3851.04
+Villaverde,2021,1836.69
+Villa de Vallecas,2021,2326.79
+Vicálvaro,2021,2410.25
+San Blas-Canillejas,2021,2756.64
+Barajas,2021,3334.23
+Ciudad de Madrid,2022,3900.4
+Centro,2022,5466.32
+Arganzuela,2022,4489.71
+Retiro,2022,5284.27
+Salamanca,2022,6496.29
+Chamartín,2022,5616.88
+Tetuán,2022,3955.42
+Chamberí,2022,6188.49
+Fuencarral-El Pardo,2022,4054.52
+Moncloa-Aravaca,2022,4512.62
+Latina,2022,2507.78
+Carabanchel,2022,2454.64
+Usera,2022,2183.17
+Puente de Vallecas,2022,2110.69
+Moratalaz,2022,2767.3
+Ciudad Lineal,2022,3511.66
+Hortaleza,2022,3920.2
+Villaverde,2022,1830.26
+Villa de Vallecas,2022,2628.55
+Vicálvaro,2022,2604.57
+San Blas-Canillejas,2022,2739.57
+Barajas,2022,3445.86
+Ciudad de Madrid,2023,4060.37
+Centro,2023,5712.09
+Arganzuela,2023,4556.68
+Retiro,2023,5501.02
+Salamanca,2023,7332.4
+Chamartín,2023,5860.95
+Tetuán,2023,4677.48
+Chamberí,2023,6789.79
+Fuencarral-El Pardo,2023,4480.81
+Moncloa-Aravaca,2023,4643.0
+Latina,2023,2636.1
+Carabanchel,2023,2480.02
+Usera,2023,2303.88
+Puente de Vallecas,2023,2146.86
+Moratalaz,2023,2837.45
+Ciudad Lineal,2023,3559.9
+Hortaleza,2023,4161.19
+Villaverde,2023,1900.28
+Villa de Vallecas,2023,2765.88
+Vicálvaro,2023,2819.81
+San Blas-Canillejas,2023,2649.18
+Barajas,2023,3596.72
+Ciudad de Madrid,2024,4526.66
+Centro,2024,6268.72
+Arganzuela,2024,5406.62
+Retiro,2024,6278.37
+Salamanca,2024,7749.88
+Chamartín,2024,6401.56
+Tetuán,2024,4755.8
+Chamberí,2024,7150.33
+Fuencarral-El Pardo,2024,4594.85
+Moncloa-Aravaca,2024,5088.08
+Latina,2024,2895.11
+Carabanchel,2024,2831.45
+Usera,2024,2516.33
+Puente de Vallecas,2024,2444.16
+Moratalaz,2024,3174.38
+Ciudad Lineal,2024,4001.36
+Hortaleza,2024,4446.27
+Villaverde,2024,2112.72
+Villa de Vallecas,2024,2955.81
+Vicálvaro,2024,3165.4
+San Blas-Canillejas,2024,2909.53
+Barajas,2024,3791.76
