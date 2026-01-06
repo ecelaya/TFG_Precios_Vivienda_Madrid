@@ -9,6 +9,10 @@ import os
 
 st.set_page_config(layout="wide")
 
+import sklearn, xgboost
+st.write("sklearn:", sklearn.__version__)
+st.write("xgboost:", xgboost.__version__)
+
 st.title("🏷️ Predicción del Precio de la Vivienda")
 st.write("""En esta sección se presenta una herramienta interactiva que permite estimar el precio
 de una vivienda a partir de sus características estructurales y de localización.
@@ -138,6 +142,7 @@ if st.button("🔮 Predecir precio"):
         "del mercado inmobiliario de Madrid en el año 2023. "
 
         "El resultado tiene carácter orientativo y no constituye una valoración oficial.")
+
 
 
 
