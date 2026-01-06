@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 import json
 import geopandas as gpd
 import unicodedata
+import os
 
 st.set_page_config(layout="wide")
 
@@ -85,9 +86,13 @@ st.subheader("Mapa histórico del valor tasado e incremento anual en la Comunida
 
 @st.cache_data
 def load_limites_geo():
-    return gpd.read_file("data/limites_madrid.geojson")
+    path = os.path.join(
+        os.path.dirname(__file__),
+        "..",
+        "data",
+        "limites_madrid.geojson")
+    return gpd.read_file(path)
 gdf = load_limites_geo()
-
 geojson = gdf
 
 #Calcular incremento anual
@@ -272,4 +277,5 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
 
