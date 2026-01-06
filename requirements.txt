@@ -1,19 +1,15 @@
 streamlit
-
 pandas
 numpy
-
 plotly
-
 geopandas
 shapely
 pyproj
 fiona
-
-scikit-learn
+scikit-learn==1.6.1
 joblib
 geopy
+xgboost==3.0.2
 
-xgboost
 
 
