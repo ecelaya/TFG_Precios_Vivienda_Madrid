@@ -59,6 +59,8 @@ st.plotly_chart(fig, use_container_width=True)
 st.text("Se observa una evolución similar en ambas series, siendo la media de Madrid consistentemente más alta que la media nacional. \n\
 Ambas series muestran un crecimiento sostenido hasta 2008, seguido de una caída pronunciada hasta 2013. A partir de 2014, ambas series inician una recuperación gradual que se acelera a partir de 2020.")
 
+st.divider()
+
 #Grafico de lineas con filtros
 
 st.subheader("Evolución del precio medio en la Comunidad de Madrid por municipio")
@@ -285,6 +287,7 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
 
 
 
