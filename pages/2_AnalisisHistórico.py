@@ -87,9 +87,12 @@ st.subheader("Mapa histórico del valor tasado e incremento anual en la Comunida
 @st.cache_data
 def load_limites_geo():
     path = "data/limites_madrid.geojson"
-    return gpd.read_file(path)
-gdf = load_limites_geo()
-geojson = gdf
+    with open(path, "r", encoding="utf-8") as f:
+        geojson = json.load(f)
+    gdf = gpd.GeoDataFrame.from_features(geojson["features"])
+    gdf = gdf.set_crs(epsg=4326)
+    return gdf, geojson
+gdf, geojson = load_limites_geo()
 
 #Calcular incremento anual
 gdf_all = gdf.sort_values(["NAMEUNIT", "Año"])
@@ -273,6 +276,7 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
 
 
 
