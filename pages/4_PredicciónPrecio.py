@@ -137,6 +137,9 @@ if hasattr(model, "named_steps"):
     st.write(X_debug[:1])
     st.write("Shape:", X_debug.shape)
 
+st.write("sklearn:", sklearn.__version__)
+st.write("xgboost:", xgboost.__version__)
+st.write("model type:", type(model))
 
     # Predicción en log-precio
     log_price_pred = model.predict(input_data)[0]
@@ -155,6 +158,7 @@ if hasattr(model, "named_steps"):
         "del mercado inmobiliario de Madrid en el año 2023. "
 
         "El resultado tiene carácter orientativo y no constituye una valoración oficial.")
+
 
 
 
