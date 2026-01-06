@@ -22,7 +22,6 @@ def is_in_madrid(lat, lon):
         -3.8880 <= lon <= -3.5170)
 
 # Cargar modelo
-@st.cache_resource
 def load_model():
     return joblib.load("modelo_xgb_final.pkl")
 model = load_model()
@@ -139,6 +138,7 @@ if st.button("🔮 Predecir precio"):
         "del mercado inmobiliario de Madrid en el año 2023. "
 
         "El resultado tiene carácter orientativo y no constituye una valoración oficial.")
+
 
 
 
