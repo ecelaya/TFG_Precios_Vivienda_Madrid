@@ -25,3 +25,6 @@ La web dispone de varios apartados a los que se puede acceder a trav√©s del men√
 
 st.divider()
 
+st.title("Memoria del TFG")
+
+
