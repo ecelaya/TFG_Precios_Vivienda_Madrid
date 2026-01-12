@@ -154,7 +154,7 @@ en la modelización realizada.""")
 st.divider()
 
 st.subheader("Resultados de validación cruzada")
-st.markdown("""| Modelo | R² CV (mean) | RMSE CV (mean) |
+st.markdown("""| Modelo | R² (mean) | RMSE (mean) |
 |:------:|:-------------:|:---------------:|
 | Regresión lineal | 0.7767 | 0.3802 |
 | Decision Tree | 0.8903 | 0.2665 |
@@ -167,4 +167,5 @@ st.markdown("""La similitud de resultados entre Random Forest y XGBoost sugiere 
 contenida en las variables explicativas es capturada de forma consistente por distintos
 métodos no paramétricos. Esto refuerza la validez de las conclusiones obtenidas y pone 
 de manifiesto la robustez del análisis realizado.""")
+
 
