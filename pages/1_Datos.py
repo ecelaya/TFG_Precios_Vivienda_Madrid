@@ -28,7 +28,6 @@ df_distritos = pd.read_csv("data/distritos.csv")
 def load_limites_geo():
     path = os.path.join(os.path.dirname(__file__), "..", "data", "limites_madrid.geojson")
     path = os.path.abspath(path)
-    # Leer el GeoJSON como dict (evita problemas de fiona en cloud)
     with open(path, "r", encoding="utf-8") as f:
         geo = json.load(f)
     return gpd.GeoDataFrame.from_features(geo["features"], crs="EPSG:4326")
@@ -86,6 +85,7 @@ st.write("Base de datos utilizada para el entrenamiento de los modelos de aprend
 st.dataframe(df_modelos)
 
 st.caption("Fuente: Kaggle")
+
 
 
 
