@@ -89,7 +89,7 @@ st.divider()
 #Mapa interactivo
 
 st.subheader("Mapa histórico del valor tasado e incremento anual en la Comunidad de Madrid")
-st.markdown("""Este mapa interactivo permite seleccionar entre valor tasado (€ / m²) o incremento anual (%) para observar de forma visual la evolución de los municipios. Seleccione el año de su interés o haga click en el botón de *play* para ver la evolución desde el 2005
+st.markdown("""Este mapa interactivo permite seleccionar entre valor tasado (€ / m²) o incremento anual (%) para observar de forma visual la evolución de los municipios. Seleccione el año de su interés o haga click en el botón de *play* para ver la evolución desde el 2005  
            *Nota: Para el incremento anual (%), el mapa está vacío para el año 2005, ya que no hay datos del año anterior con los que comparar""")
 
 @st.cache_data
@@ -290,6 +290,7 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
 
 
 
