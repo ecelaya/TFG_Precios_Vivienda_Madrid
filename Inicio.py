@@ -7,8 +7,8 @@ import json
 
 #Título y descripción de la página
 st.set_page_config(page_title="Dashboard Vivienda", layout="wide")
-
 st.title("🏠 Dashboard Vivienda")
+st.caption("Eloy Celaya López")
 st.markdown("""Bienvenido al dashboard del TFG de Eloy Celaya López, para el grado de Estadística y Empresa en la Universidad Carlos III de Madrid.
          El objetivo de este dashboard es mostrar de forma interactiva todos los resultados obtenidos mediante el análisis además de poder probar los modelos creados.
          Es recomendable el uso de un ordenador para la utilización de la app.""")
@@ -26,6 +26,7 @@ La web dispone de varios apartados a los que se puede acceder a través del men�
 st.divider()
 
 st.title("Memoria del TFG")
+
 
 
 
