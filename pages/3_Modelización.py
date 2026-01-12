@@ -81,7 +81,7 @@ st.subheader("Efecto de variables cualitativas")
 
 col = st.selectbox(
     "Selecciona una variable:",
-    ["Elevator", "Air_Conditioning", "Heater", "Parking", "Balcony", "Terrace", "Swimming_Pool"])
+    ["Elevator", "Air_Conditioner", "Heater", "Parking", "Balcony", "Terrace", "Swimming_Pool"])
 
 fig = px.box(
     df_modelos_final,
@@ -167,5 +167,6 @@ st.markdown("""La similitud de resultados entre Random Forest y XGBoost sugiere 
 contenida en las variables explicativas es capturada de forma consistente por distintos
 métodos no paramétricos. Esto refuerza la validez de las conclusiones obtenidas y pone 
 de manifiesto la robustez del análisis realizado.""")
+
 
 
