@@ -130,9 +130,15 @@ else:
     titulo = "Incremento anual del valor tasado por municipio (%) – Comunidad de Madrid"
     label_color = "Incremento anual (%)"
 
+# Filtrado según modo
+if modo == "Incremento anual (%)":
+    gdf_plot = gdf_all[gdf_all["Año"] > 2005]
+else:
+    gdf_plot = gdf_all.copy()
+
 #Crear mapa
 fig = px.choropleth_mapbox(
-    gdf_all,
+    gdf_plot,
     geojson=geojson,
     locations="id",
     featureidkey="properties.id",
@@ -290,6 +296,7 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
 
 
 
