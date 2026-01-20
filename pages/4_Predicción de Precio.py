@@ -50,7 +50,7 @@ with col2:
     if use_address:
         address = st.text_input(
             "Dirección",
-            "Calle Serrano, Madrid")
+            "Calle de Serrano, Madrid")
 
         if st.button("📍 Usar dirección"):
             location = geolocator.geocode(address)
@@ -138,6 +138,7 @@ if st.button("🔮 Predecir precio"):
         "del mercado inmobiliario de Madrid en el año 2023. "
 
         "El resultado tiene carácter orientativo y no constituye una valoración oficial.")
+
 
 
 
